@@ -1,0 +1,97 @@
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 15px;
+text-align: center;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#modal{
+    background-color: white;
+    padding: 25px;
+line-height: 35px; 
+text-align: left;
+}
+
+.modal{
+    position: fixed;
+    display: none;
+    top: 250px;
+    height: 120px;
+    border: 2px solid black;
+
+
+}
+
+.modalvisible{
+    position: fixed;
+    display: inline-block;
+    grid-template-columns: 1fr 1fr;
+    top: 10%;
+    height: 120px;
+}
+
+
+#mainForm{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+    background-color: white;
+
+
+    border: 2px solid black;
+
+}
+
+.labels{
+    grid-column: 1 / 2;
+
+
+}
+
+.inputs {
+    grid-column: 2 / 3;
+}
+
+
+table{
+
+width: 80vw;
+border-collapse: collapse;
+white-space: nowrap;
+
+
+
+}
+
+table, tr,th, td{
+    border: 1px solid lightgray
+}
+
+.hidden{
+
+    display: none;
+    visibility: hidden;
+
+}
+
+.visible{
+    display: inline-block;
+
+    visibility: visible;
+}
+
+button{
+    height: 35px;
+    color: white;
+    background-color: black;
+}
+
+li{
+    list-style: none;
+}
